@@ -1,4 +1,7 @@
-count = 0
-while count <= 3:
-    print(count)
-    count =+ 1
+counter = 1
+output = ""
+
+while counter <=5:
+    output = output + str(counter)
+    print(output)
+    counter = counter + 1
